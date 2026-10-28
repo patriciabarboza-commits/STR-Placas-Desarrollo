@@ -41,7 +41,6 @@ void setup() {
   // Iniciar FreeRTOS
   vTaskStartScheduler();
 
-  // Si no inicia, puede ser por falta de memoria
   Serial.println("Error al iniciar FreeRTOS");
 }
 
